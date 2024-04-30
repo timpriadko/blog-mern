@@ -1,0 +1,27 @@
+{
+  "name": "blog-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timpriadko/blog-mern.git"
+  },
+  "author": "Artem Priadko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timpriadko/blog-mern/issues"
+  },
+  "homepage": "https://github.com/timpriadko/blog-mern#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.0"
+  }
+}
